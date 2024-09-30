@@ -8,7 +8,7 @@ let package = Package(
     platforms: [.iOS(.v13)],
     products: [.library(name: "EyeTracking", targets: ["EyeTracking"])],
     dependencies: [
-        .package(url: "https://github.com/groue/GRDB.swift", from: "4.0.0"),
+        .package(url: "https://github.com/groue/GRDB.swift", from: "6.0.0"),
     ],
     targets: [
         .target(name: "EyeTracking", dependencies: ["GRDB"]),
